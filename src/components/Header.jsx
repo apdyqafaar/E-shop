@@ -214,7 +214,7 @@ export const Header = () => {
                }
               </AccordionContent>
               <AccordionContent>
-              <Link className="flex items-center px-6 text-gray-700">
+              <Link to={'/userProfile/orders} className="flex items-center px-6 text-gray-700">
               <Truck className="mr-2 w-5"/>
               <span className="font-medium">My Orders</span>
               </Link>
